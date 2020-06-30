@@ -1,0 +1,52 @@
+body {
+  margin: 8px 8px;
+  padding: 0;
+}
+
+body, html {
+  background-color: #f8f8f8;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  left: 0;
+  background-color: #e0e0e0;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #e0e0e0
+}
+
+.right {
+  right: 0;
+  background-color: #c0c0c0
+}
+
+.centered {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+}

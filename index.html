@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live2D</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/webpScript.js"></script>
+
+  <body>
+
+    <p></p>
+    <div>
+      Choose webp file to change duration:
+      <input type="file" id="textures" name="textures" accept="image/webp" onchange="handleFiles(this.files)">
+    </div>
+
+    <p></p>
+    <div>New duration: <input type="number" id="duration" value="33"></div>
+    <button type="button" name="makeImage" onclick="javascript:makeImage();">make image!</button>
+
+    <p>Before / After :</p>
+
+    <div class="split left">
+      <div class="centered" id="before">
+      </div>
+    </div>
+
+    <div class="split right">
+      <div class="centered" id="after">
+      </div>
+    </div>
+
+  </body>
+
+</html>
